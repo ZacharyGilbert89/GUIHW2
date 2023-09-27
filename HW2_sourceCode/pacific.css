@@ -1,0 +1,80 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: linear-gradient(white, #00569f);
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+	z-index: ;
+	margin-left: 20%;
+	padding-left: 5%;
+	margin-top: -5%;
+	padding-top:5%;
+	width: 63.5%;
+	background-color: white;
+}
+#resort p{
+	text-align: center;
+	left: 10px;
+}
+nav {
+	position: absolute;
+	left: 12%;
+	margin-left: auto;
+	padding: 0px;
+	height: 80%;
+	background-color: #90C8E3;
+	text-decoration: none;
+	display: flex;
+	width: 12%;
+}
+
+nav ul a{
+	font-size: 1.2em;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #000032;
+}
+nav li {
+	list-style-type: none;
+	
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	width: 75%;
+	color: white;
+	padding: 1%;
+	border: black;
+	background-image: url("sunset.jpg");
+	background-color: #000032;
+	margin:auto;
+	background-repeat:no-repeat;
+	background-position-x: 100%;
+	margin-bottom: 0;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+#contact {
+	background-color: white;
+	font-size: 90%;
+}
+dt {
+	
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
