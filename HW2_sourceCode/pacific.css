@@ -5,35 +5,32 @@ body {
 	background-image: linear-gradient(white, #00569f);
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
+	min-width: 600px;
+	width: 80%;
+	margin: auto;
 }
 #content {
-	margin-left: 20%;
-	padding-left: 5%;
-	padding-top: .1%;
-	padding-bottom: 1%;
-	width: 63.5%;
+	margin-left: 160px;
+	padding-left: 30px;
+	margin-top: -20px;
 	background-color: white;
 }
 #content span {
 	font-weight: bolder;
 }
-nav {
-	position: absolute;
-	left: 12%;
-	margin-left: auto;
-	padding: 0px;
-	height: 80%;
+#wrapper {
 	background-color: #90C8E3;
-	text-decoration: none;
-	display: flex;
-	width: 12%;
+	
 }
-
-nav ul a{
+nav ul {
+	float: left;
 	font-size: 1.2em;
-	text-decoration: none;
 	font-weight: bolder;
 	color: #000032;
+	
+}
+nav a {
+	text-decoration: none;
 }
 nav li {
 	list-style-type: none;
@@ -46,9 +43,8 @@ nav a:hover {
 	color: #FFFFFF;
 }
 h1 {
-	width: 75%;
 	color: white;
-	padding: 1%;
+	padding: 10px;
 	border: black;
 	background-image: url("sunset.jpg");
 	background-color: #000032;
