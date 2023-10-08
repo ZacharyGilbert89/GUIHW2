@@ -2,7 +2,8 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-image: linear-gradient(white, #00569f);
+	background-image: url('ptrbackground.jpg');
+	background-color: #00569f;
 	color: #666666;
 	font-family: Arial, Helvetica, sans-serif;
 	min-width: 600px;
@@ -14,9 +15,15 @@ body {
 	padding-left: 30px;
 	margin-top: -20px;
 	background-color: white;
+	
+}
+#content ul {
+	list-style-image: url('marker.gif');
+	list-style-position: inside;
 }
 #content span {
 	font-weight: bolder;
+	color:#3399CC;
 }
 #wrapper {
 	background-color: #90C8E3;
@@ -31,10 +38,10 @@ nav ul {
 }
 nav a {
 	text-decoration: none;
+	margin-left: -20px;
 }
 nav li {
 	list-style-type: none;
-	
 }
 nav a:visited {
 	color: #344873;
@@ -42,19 +49,25 @@ nav a:visited {
 nav a:hover {
 	color: #FFFFFF;
 }
+img {
+	float:left;
+	margin-right: 40px;
+}
+#content img {
+	margin-right: 20px;
+}
 h1 {
 	color: white;
 	padding: 10px;
 	border: black;
 	background-image: url("sunset.jpg");
 	background-color: #000032;
-	margin:auto;
 	background-repeat:no-repeat;
 	background-position-x: 100%;
-	margin-bottom: 0;
 }
 h2 {
 	color: #3399CC;
+	padding-top: 10px;
 }
 h1,
 h2 {
@@ -69,6 +82,11 @@ dt {
 	color: #000033;
 }
 footer {
+	font-size: small;
+	font-style: italic;
+	margin-left: 160px;
+	padding: 30px;
+	background-color: white;
 	font-family: Georgia, "Times New Roman", serif;
 }
 
