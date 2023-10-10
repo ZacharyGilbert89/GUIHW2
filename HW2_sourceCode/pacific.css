@@ -1,92 +1,93 @@
+/*
+File: pacific.ss
+GUI Assignment: HW2 Recreating a webpage
+Zachary Gilbert, UMass Lowell Computer Science,
+zachary_gilbert@student.uml.edu
+Copyright (c) 2023 by Gilbert. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by ZG on October 8, 2023 at 3:41 PM
+*/
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 	display: block;
 }
 body {
-	background-image: url('ptrbackground.jpg');
-	background-color: #00569f;
-	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;
-	min-width: 600px;
-	width: 80%;
-	margin: auto;
+	background-image: url('ptrbackground.jpg'); /*Background image*/
+	background-color: #00569f; /*Background color*/
+	font-family: Arial, Helvetica, sans-serif; /*Font*/
+	min-width: 600px;/*Minimum window width*/
+	width: 80%;/*Body to span 80% of the background*/
+	margin: auto; /*To center the body*/
 }
 #content {
-	margin-left: 160px;
-	padding-left: 30px;
-	margin-top: -20px;
-	background-color: white;
+	margin-left: 160px;/*margin left to shift*/
+	padding-left: 30px;/*padding so we have some space from the edge*/
+	margin-top: -20px;/*margin from the top for space*/
+	background-color: white;/*White background of the content*/
 	
 }
 #content ul {
-	list-style-image: url('marker.gif');
-	list-style-position: inside;
+	list-style-image: url('marker.gif');/*Bullet point image*/
+	list-style-position: inside;/*move the bullet points inside*/
 }
 #content span {
 	font-weight: bolder;
-	color:#3399CC;
+	color:#3399CC;/*Highlight the company name*/
 }
 #wrapper {
-	background-color: #90C8E3;
-	
+	background-color: #90C8E3;/*Side UI background color*/
 }
 nav ul {
-	float: left;
+	float: left;/*Makes the navigation stay to the left of the content*/
 	font-size: 1.2em;
 	font-weight: bolder;
-	color: #000032;
-	
 }
 nav a {
-	text-decoration: none;
-	margin-left: -20px;
+	color:#000032;
+	text-decoration: none;/*No underline for the hyperlink*/
+	margin-left: -20px;/*Shifts the links away from the side*/
 }
 nav li {
-	list-style-type: none;
+	list-style-type: none;/*No bullets*/
 }
 nav a:visited {
-	color: #344873;
+	color: #344873;/*Changes the color after we visited the page*/
 }
 nav a:hover {
-	color: #FFFFFF;
+	color: #FFFFFF;/*On Hover shows the current selection*/
 }
 img {
-	float:left;
-	margin-right: 40px;
+	float:left;/*Shifts the image to the left so text can freely go on the right*/
+	margin-right: 40px;/*Gives spacing from the image, so text doesnt overlap or get too close*/
 }
 #content img {
-	margin-right: 20px;
+	margin-right: 20px;/*margin on the right*/
 }
 h1 {
 	color: white;
-	padding: 10px;
-	border: black;
-	background-image: url("sunset.jpg");
-	background-color: #000032;
-	background-repeat:no-repeat;
-	background-position-x: 100%;
+	padding: 10px;/*Padding so things look neat*/
+	background-image: url("sunset.jpg");/*sunset image at the top of the header*/
+	background-color: #000032;/*Background color to fill the right side*/
+	background-repeat:no-repeat;/*No repeat so the image doesnt fill*/
+	background-position-x: 100%;/*offsets the image to the right*/
 }
 h2 {
-	color: #3399CC;
-	padding-top: 10px;
+	color: #3399CC;/*Sets the color for the description header*/
+	padding-top: 10px;/*Offsets so the text doesnt stay close*/
 }
 h1,
 h2 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: Georgia, "Times New Roman", serif;/*sets the font*/
 }
 #contact {
-	background-color: white;
-	font-size: 90%;
-}
-dt {
-	
-	color: #000033;
+	background-color: white;/*We want the color to match the content background*/
+	font-size: 90%;/*slightly smaller than the rest of the page*/
 }
 footer {
-	font-size: small;
-	font-style: italic;
-	margin-left: 160px;
-	padding: 30px;
-	background-color: white;
-	font-family: Georgia, "Times New Roman", serif;
+	font-size: small;/*sets the font to small*/
+	font-style: italic;/*italicizes*/
+	margin-left: 160px;/*shifts the copyright to the right*/
+	padding: 30px;/*padding so the text is easily readable*/
+	background-color: white;/*background color to white to match the rest*/
+	font-family: Georgia, "Times New Roman", serif;/*font family*/
 }
 
